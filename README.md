@@ -1,4 +1,4 @@
-# Simple Ecommerce Application wit Vue CLI
+# Simple Ecommerce Application using Vue CLI
 
 #### Made with <3 and VueJS
 
