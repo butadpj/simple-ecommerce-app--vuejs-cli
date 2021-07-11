@@ -1,0 +1,36 @@
+.navbar {
+  width: 100%;
+  height: var(--nav-height);
+  background: var(--primary);
+  color: var(--light);
+  font-weight: bold;
+  padding: 1em 4em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+}
+
+.cart-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.2em;
+}
+
+.cart-info span {
+  font-size: 1.5em;
+}
+
+.cart-info > * {
+  margin-left: 0.5em;
+}
+
+.cart-count {
+  background: var(--secondary);
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 2rem;
+}

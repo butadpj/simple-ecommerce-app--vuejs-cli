@@ -1,0 +1,64 @@
+.product {
+  display: flex;
+  align-items: flex-start;
+  margin: 2em 0;
+}
+
+.product-img {
+  width: 25rem;
+  object-fit: cover;
+  border: 1px solid black;
+  padding: 2em;
+  margin-right: 2rem;
+}
+
+.product-info > * {
+  margin-bottom: 1.5rem;
+}
+
+.product-info .name {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.product-info .stock-status {
+  font-size: 0.85em;
+  text-align: center;
+  padding: 0.5em 1em;
+  width: fit-content;
+  color: var(--light);
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 2.5px;
+  cursor: pointer;
+}
+
+.stock-status.in-stock {
+  background-color: var(--primary);
+}
+
+.stock-status.almost-sold-out {
+  background-color: var(--warning);
+}
+
+.stock-status.out-of-stock {
+  background-color: var(--danger);
+}
+
+.product-info .details {
+  list-style-position: inside;
+  font-size: 1.15em;
+}
+
+.variants .colors {
+  margin-top: 1em;
+  display: flex;
+}
+
+.variants .colors > * {
+  margin-right: 1.5em;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+  filter: saturate(0.8);
+}

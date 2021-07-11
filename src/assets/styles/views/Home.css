@@ -1,0 +1,13 @@
+.products {
+  margin-top: 1em;
+}
+
+.products > .title {
+  text-align: center;
+  color: var(--secondary);
+}
+
+.product-wrapper {
+  width: 50rem;
+  margin: 0 auto;
+}
